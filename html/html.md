@@ -37,13 +37,27 @@ The browser inspector
 
 1. Go to the [Google](https://google.com) page and answer the following:
    * Find the logo on the inspector. What is the ``alt`` text in it?
+
+         <img alt="Google"...>
+
    * Is the search box an ``input`` element?
+
+         <input class="gLFyf gsfi"...>
+
    * What type of element is the microphone icon in the search bar?
-   * What about the magnifying glass on the left?
+
+         *No he localizado el microfono, en su lugar, he identificado la lupa de búsqueda:
+         <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"></svg>
+
    * Does Google use a ``footer`` element on the bottom and if not, what is it?
+
+      - No usa `footer` elemento, usa en su lugar, un `div`
+
 
 2. Download the image used in [this degree page](https://www.talent.upc.edu/cat/estudis/formacio/curs/313400/postgrau-full-stack-web-technologies/)
    as background.
+
+   <img src="https://www.talent.upc.edu/uploads/curriculums/imatges_activitat/313400_1.jpg">
 
 3. Go to the ["Why Choose React" page](https://www.quora.com/Why-choose-React) 
    on Quora on a browser and from there navigate to other pages. At some
