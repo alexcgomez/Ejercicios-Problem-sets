@@ -1,13 +1,78 @@
-<!--
-    1.- Write a basic template for an HTML document that you can use as a starting point for your own work. Make a repo of it that you can clone easily. Update it when you find out things that you want to start with.
--->
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Exercices</title>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Angular 9</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>NOTICIAS</h1>
+    </header>
+    <section>
+        <nav class="breadcrumbs">
+            <span>Home</span>
+            <span><i class="fa fa-angle-right"></i></span>
+            <span>Tecnología</span>
+            <span><i class="fa fa-angle-right"></i></span>
+            <span>Noticias</span>
+            <span><i class="fa fa-angle-right"></i></span>
+            <span>Angular 9 ya ha llegado y estas son sus novedades</span>
+
+        </nav>
+        <article>
+            <br>
+            <img src="https://miro.medium.com/max/1024/1*UogK_4h5ppafWoKxvDGPTQ.jpeg" alt="Angular9" style="width: 500px; height: 350px;">
+            <h2>Angular 9 ya ha llegado y estas son sus novedades</h2>
+            <p>Angular es uno de los frameworks de código abierto líderes en el mercado para el desarrollo de
+                aplicaciones,
+                tanto web como móvil. Y no podría ser de otra manera, pues el equipo de Angular (perteneciente a Google)
+                nos
+                tiene acostumbrados a una versión mayor cada 6 meses, incluso manteniendo la API estable desde el
+                lanzamiento de Angular 2. <br>
+
+                Este año contamos con una actualización centrada en mejoras técnicas de Angular. Puede que a la hora de
+                programar no se añada nada nuevo, pero vamos a ver una gran reducción del tamaño de los proyectos y una
+                mejora del rendimiento.</p>
+            <h3>El compilador Ivy</h3>
+            <p>
+                Hasta la salida de Angular 8, el framework dependía exclusivamente de su “ViewEngine” para montar y
+                renderizar
+                las aplicaciones en el navegador. Sin entrar mucho en detalles, el VE se encargaba de coger las
+                plantillas y los
+                componentes y transformarlos en código HTML y Javascript (recordad que Angular se programa en
+                TypeScript), para
+                que asi el navegador pudiera interpretarlos y mostrarlos por pantalla.
+
+                Sin embargo, con la introducción de Ivy en Angular 8, y al fin su lanzamiento oficial en esta versión 9
+                del
+                framework, contamos con un compilador más eficiente que, aunque no afecte en nuestra forma de programar,
+                veremos
+                como cambia totalmente la forma en que nuestras aplicaciones se generan.
+
+                Puesto que se generarán proyectos mucho más ligeros, sobretodo en aplicaciones móviles (prácticamente la
+                mitad
+                del tráfico global de la red) notaremos un aumento considerable de la velocidad de carga.
+
+                Como decíamos, en Angular 8 este compilador era opcional. Si quisiéramos activarlo, tendríamos que ir al
+                archivo
+                tsconfig.json de nuestro directorio raíz y escribir lo siguiente:
+                <br>
+                <br>
+                <code style="align-items: left;">
+                "angularCompilerOptions": {<br>
+                "enableIvy": true <br>
+                }
+                </code>
+            </p>
+        </article>
+    </section>
+    <footer>
+
+    </footer>
 </body>
+
 </html>

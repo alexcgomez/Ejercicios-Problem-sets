@@ -16,8 +16,10 @@ Tags
    to identify specific elements.
 
    Open the page on a browser:
-   * Can we distinguish the tags on the screen? 
-   * Why do we need tags like ``article`` or ``section``? 
+   * Can we distinguish the tags on the screen?
+      - Es posible distinguir las etiquetas h1 , h2, h3, el párrafo, el nav, en cambio, section, article, header y footer, no se pueden apreciar
+   * Why do we need tags like ``article`` or ``section``?
+      - Es la forma correcta de estructurar la página web, es muy importante la utilización de estas etiquetas ya que facilitan que los algoritmos de los motores de búsqueda localizen y posicionen el sitio correctamente.
 
 3. Write an HTML file to show the following table:
 
