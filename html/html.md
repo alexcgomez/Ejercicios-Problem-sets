@@ -9,11 +9,15 @@ Tags
    point for your own work. Make a repo of it that you can clone easily.
    Update it when you find out things that you want to start with.
 
+   DONE
+
 2. Pick a very short newspaper article from any online newspaper and write an
    HTML page with the content from it. Use the tags ``article``, ``nav``,
    ``section``, ``header`` and ``footer``. If there are elements for which
    you don't have a tag, use the ``class`` attribute, and apply ``id``s
    to identify specific elements.
+
+   DONE
 
    Open the page on a browser:
    * Can we distinguish the tags on the screen?
@@ -31,6 +35,7 @@ Tags
    | Lists      | ``ul``, ``ol``, ``li``                                              |
    | Tables     | ``table``, ``thead``, ``tbody``, ``tr``, ``th``, ``td``             |
 
+   DONE
 
 The browser inspector
 ---------------------
@@ -70,6 +75,11 @@ The browser inspector
    that has the content (as of this writing it has the class
    "``ContentWrapper``") and look for the CSS ``filter`` property with the
    "blur" and uncheck it to make the text readable. Yay!
+   
+   <img src="img/1.png">
+   <img src="img/2.png">
+   <img src="img/3.png">
+   <img src="img/4.png">
 
 4. Go to 
    [this Minidosis page](http://www.minidosis.org/#/actividades/Cpp.Funciones.Binomial.doc), 
