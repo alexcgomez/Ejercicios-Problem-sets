@@ -87,6 +87,8 @@ The browser inspector
    and search with Ctrl+F for pieces of the text you have seen. What is going
    on? How can you explain it?
 
+   - El texto no aparece en el documento HTML, se utiliza JavaScript para modificar el DOM y añadir el texto de la página.
+
 
 The browser console
 -------------------
@@ -94,6 +96,13 @@ The browser console
 1. By using the ``document`` object in the browser console, show an array of all
    links in some page you like (a short one preferably). If you dare, try to use
    Javascript to change the background color of all links to yellow.
+
+   - Se ha utilizado la página de login del campus virtual de la UPC https://atenea-tfe.upc.edu/login/index.php :
+
+   <img src="img/5.png">
+   <img src="img/6.png">
+   <img src="img/7.png">
+
 
 
 Forms
