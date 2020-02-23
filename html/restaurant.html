@@ -4,34 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Restaurante Exótico</title>
 </head>
 
 <body>
-    <h1>Menú de Restaurante</h1>
+    <h1>Menú de Restaurante Exótico</h1>
+    <h2>¿Qué desea tomar?</h2>
+    <br>
     <form action="" method="post">
-        <label for="first-dish">Primer plato</label>
-        <select name="first-dish" id="first-dish">
+        <label for="first-dish">Primer plato</label><br>
+        <select name="first-dish" style="margin: 10px;" id="first-dish">
             <option value="hormigas">Hormigas saladas</option>
-            <option value="sesos">Sesos hervidos</option>
+            <option value="sesos">Sesos de cerdo vietnamita hervidos</option>
             <option value="escorpion" selected>Escorpiones al vapor</option>
-            <option value="sesos">Sesos hervidos</option>
-            <option value="escorpion" selected>Escorpiones al vapor</option>
-        </select>
-        <label for="first-dish">Segundo plato</label>
-        <select name="first-dish" id="first-dish">
-            <option value="hormigas">Hormigas saladas</option>
-            <option value="sesos">Sesos hervidos</option>
-            <option value="escorpion" selected>Escorpiones al vapor</option>
-            <option value="sesos">Sesos hervidos</option>
-            <option value="escorpion" selected>Escorpiones al vapor</option>
-        </select>
-        <label for="first-dish">Postres</label>
-        <select name="first-dish" id="first-dish">
-            <option value="hormigas">Hormigas saladas</option>
-            <option value="sesos">Sesos hervidos</option>
-            <option value="escorpion" selected>Escorpiones al vapor</option>
-        </select>
+            <option value="higado">Hígado de pitón del desierto con cebolla</option>
+            <option value="aracnidos" selected>Salteado de arácnidos</option>
+        </select><br>
+        <label for="second-dish">Segundo plato</label><br>
+        <select name="second-dish" style="margin: 10px;"  id="second-dish">
+            <option value="canguro">Asado de canguro</option>
+            <option value="babosa">Babosa marina a la plancha</option>
+            <option value="gusanos" selected>Tagliatelli de gusanos de bosque</option>
+            <option value="polilla">Polilla a la plancha con salsa de larva</option>
+            <option value="cucaracha" selected>Brocheta de cucaracha y ortigas</option>
+        </select><br>
+        <label for="desserts">Postres</label><br>
+        <select name="desserts" style="margin: 10px;"  id="desserts">
+            <option value="mousse">Mousse de rana joven con litchi</option>
+            <option value="tarta">Tarta de lagarto</option>
+            <option value="sorbete" selected>Sorbete de ácido de serpiente</option>
+        </select><br>
+        <label for="coffe">¿Tomará café?</label>
+        <input type="checkbox" style="margin: 10px;" name="coffee" id="coffe">
     </form>
 
 
