@@ -113,6 +113,8 @@ Forms
   searches and look for the parameter used in searches (you can deduce it from
   the URL). Configure the form to use that parameter and URL.
 
+   DONE
+
 2. Write a form to register a user with the following data: name, lastname, age,
    username, password, and country. The form has the target URL
    ``http://backend.cia.gov`` and should use a ``POST`` method.
