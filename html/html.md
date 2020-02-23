@@ -119,6 +119,8 @@ Forms
    username, password, and country. The form has the target URL
    ``http://backend.cia.gov`` and should use a ``POST`` method.
 
+   DONE
+
 3. Write a form to configure a restaurant menu. The menu should have 5 options
    for the first dish, and 5 more for the second (use ``select`` elements), as
    well as 3 for different desserts. (Use invented dishes for some fun.) Add a
