@@ -126,20 +126,32 @@ Forms
    well as 3 for different desserts. (Use invented dishes for some fun.) Add a
    checkbox that requests coffee after dessert.
 
+   DONE
+
 4. Add the last exercise to a repository and now introduce the following
    modification (for which you will do a special commit): Change the select
    elements to *radio buttons* so that the whole menu is visible all the time
    and you only mark what dishes you want.
+
+   DONE
 
 DOM APIs
 --------
 
 1. Open a page that you use often and list on the developer console the URLs of
    all the links found on the page (hint: use ``document.links``).
+   
+   -  Web usada: https://www.udemy.com/
+
+      <img src="img/8.png">
+
 
 2. Open a page that you use often and show a list on the developer console of
    the URLs of all images in the page.
 
+   -  Web usada: https://www.udemy.com/
+
+      <img src="img/9.png">
 
 Mini-projects
 -------------
