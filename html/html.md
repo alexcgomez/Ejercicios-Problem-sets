@@ -165,4 +165,5 @@ Mini-projects
    distribute this file (and know for sure that the receiver will be able to
    see it) with Word/LibreOffice.
 
+   DONE
  
