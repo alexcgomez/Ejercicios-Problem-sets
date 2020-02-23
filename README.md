@@ -4,4 +4,5 @@
 Problem Sets for the Postgraduate Degree in Full-Stack Web Technologies
 -----------------------------------------------------------------------
 
-1.- HTML (Working) :pencil2:
+1.- HTML (Done!) :heavy_check_mark: 
+2.- HTML & CSS (Working) :pencil2:
