@@ -5,7 +5,7 @@ Problem Sets for the Postgraduate Degree in Full-Stack Web Technologies
 -----------------------------------------------------------------------
 
 1. HTML (Done!) :heavy_check_mark:
-2. CSS (Working) :pencil12:
+2. CSS (Working) :penci12:
 3. HTML & CSS (Working) :pencil2:
 4. Javascript
 5. Databases
