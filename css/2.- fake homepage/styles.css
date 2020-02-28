@@ -1,0 +1,49 @@
+body {
+  font-family: monospace;
+}
+
+nav {
+  background: rgb(55, 55, 56);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  display: block;
+  margin: 5px;
+  font-size: 15px;
+  color: snow;
+  text-decoration: none;
+  background: rgb(8, 153, 20);
+  padding: 10px;
+  border-radius: 5%;
+}
+
+nav a:hover {
+  background: rgb(2, 41, 7);
+}
+
+.logo {
+  margin-right: auto;
+  width: 7rem;
+  height: 2rem;
+  background:none;
+}
+.logo:hover{
+    background: none;
+}
+
+@media all and (max-width: 800px) {
+  nav {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 100px) {
+  nav {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+}
