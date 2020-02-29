@@ -13,6 +13,8 @@ Basic CSS
    a footer at the bottom with information like the Copyright, "about",
    "contact", etc.
 
+   DONE
+
 3. Make an HTML page which looks like a chess board. (It is forbidden to use ``table``s!)
 
 4. Write a page with a very big text exactly centered in the middle of the page.

@@ -1,24 +1,29 @@
 body {
   font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background: rgb(181, 219, 179);
 }
 
 nav {
   background: rgb(55, 55, 56);
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  border-radius: 15px;
 }
 
 nav a {
   display: block;
-  margin: 5px;
   font-size: 15px;
   color: snow;
+  margin: 4px;
   text-decoration: none;
   background: rgb(8, 153, 20);
   padding: 10px;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
 nav a:hover {
@@ -27,12 +32,28 @@ nav a:hover {
 
 .logo {
   margin-right: auto;
-  width: 7rem;
-  height: 2rem;
-  background:none;
+  width: 12rem;
+  height: 3rem;
+  background: none;
 }
-.logo:hover{
-    background: none;
+.logo:hover {
+  background: none;
+}
+
+#search-bar {
+  margin-left: auto;
+  background: rgb(139, 160, 139);
+  border-radius: 5px;
+}
+
+#search-button {
+  text-decoration: none;
+  background: none;
+}
+
+.search {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 @media all and (max-width: 800px) {
@@ -46,4 +67,46 @@ nav a:hover {
     flex-flow: column wrap;
     padding: 0;
   }
+}
+
+footer{
+    bottom: -17rem;
+    position: relative;
+    background: rgb(66, 66, 66);
+    width: 100%;
+    border-radius: 15px;
+}
+div.about{
+    display: inline-block;
+    color:white;
+    width: 50%;
+    margin:20px;
+    padding:20px;
+    left: 200px;
+    text-align: justify;
+    height: 200px;
+}
+div.contact{
+    display: inline-block ;
+    width: 300px;
+    margin: 20px;
+    color:white;
+    padding:20px;
+    position: absolute;
+    right: 20px;
+    height: 200px;
+
+}
+div.copyright{
+    text-align: center;
+    width: 100%;
+
+}
+.contact input{
+    margin: 0.3rem;
+    width: 20rem;
+}
+
+.contact form{
+    text-align: center;
 }
