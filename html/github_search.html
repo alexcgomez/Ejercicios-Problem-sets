@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search on GitHub</title>
+</head>
+
+<body>
+    <h1>Página HTML para buscar en GitHub</h1>
+    Introduce el nombre del repo a buscar y presiona "Enter": <br>
+    <input type="text" name="q" id="gh-search" placeholder="Buscar en GitHub...">
+
+
+    <script type="text/javascript">
+        'use strict';
+
+        let search_input = document.querySelector("#gh-search");
+        // Dudas: Función de callback? que hace 'keyup'?
+        search_input.addEventListener('keyup', function (e) {
+            var keycode = e.keyCode || e.which;
+            if (keycode == 13) {
+                let url = 'https://github.com/search?q=' + search_input.value;
+                var win = window.open(url, '_blank');
+                win.focus();
+            }
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
